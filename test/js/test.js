@@ -29,7 +29,7 @@ import(`./testcases/${futureVersion}/cyrToLatTestSuite.js`)
 import(`./testcases/${futureVersion}/latToCyrTestSuite.js`)
     .then()
 
-function runTests(loglevel = 'debug', experimental = false, future = false) {
+function runTests(loglevel = 'debug', experimental = false, future = false, name = "ALL TESTS") {
     process.argv.forEach(function (val, index, array) {
         console.log(index + ': ' + val);
     });
@@ -68,7 +68,7 @@ function runTests(loglevel = 'debug', experimental = false, future = false) {
 
     const allTests = typeof tests === 'object' ? Object.values(tests) : tests;
 
-    return runAll(true, allTests, "ALL TESTS");
+    return runAll(true, allTests, name);
 }
 
 runTests();

@@ -1,7 +1,7 @@
 {
     "name": "@juliakramr/latynka",
     "type": "module",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Ukrainian latynka algorythm (see rules in ukr. latynka project by Maksym Prudeus: ukr-latynka.org)",
     "main": "index.js",
     "directories": {
@@ -26,5 +26,10 @@
     "bugs": {
         "url": "https://github.com/jkramr/latynka/issues"
     },
-    "homepage": "https://github.com/jkramr/latynka#readme"
+    "homepage": "https://github.com/jkramr/latynka#readme",
+    "devDependencies": {
+        "browser-resolve": "^2.0.0",
+        "browserify": "^17.0.0",
+        "esmify": "^2.1.1"
+    }
 }
