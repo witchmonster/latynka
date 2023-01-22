@@ -30,9 +30,9 @@ import(`./testcases/${futureVersion}/latToCyrTestSuite.js`)
     .then()
 
 function runTests(loglevel = 'debug', experimental = false, future = false, name = "ALL TESTS") {
-    process.argv.forEach(function (val, index, array) {
-        console.log(index + ': ' + val);
-    });
+    // process.argv.forEach(function (val, index, array) {
+    //     console.log(index + ': ' + val);
+    // });
     init(loglevel ? loglevel : undefined);
 
     var tests = {
