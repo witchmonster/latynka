@@ -1,4 +1,4 @@
-import { latToCyr } from "../../../../main/js/converters/latToCyr.js";
+import { klatinoid } from "../../../../index.js";
 
 // for tests:
 // set optional: true if you want a test to fail with a WARNING (yellow) instead of an ERROR (red)
@@ -8,7 +8,7 @@ import { latToCyr } from "../../../../main/js/converters/latToCyr.js";
 // set optional: true if you want suite to be SUCCEED (green) even if there were WARNINGS in tests or sub-suites
 const latToCyrTestSuite = {
     name: `Versija 0.9 Latynka => Kyrylycja`,
-    fn: latToCyr,
+    fn: klatinoid.latToCyr,
     optional: false,
     testPayload: [
         {

@@ -1,4 +1,4 @@
-import { cyrToLat } from "../../../../main/js/converters/cyrToLat.js";
+import { klatinoid } from "../../../../index.js";
 
 // for tests:
 // set optional: true if you want a test to fail with a WARNING instead of an ERROR
@@ -7,7 +7,7 @@ import { cyrToLat } from "../../../../main/js/converters/cyrToLat.js";
 // set optional: true if you want suite to be SUCCEED even if there were WARNINGS in tests or sub-suites, otherwise it will propagate a WARNING state
 const cyrToLatTestSuite = {
     name: `EXPERIMENTAL Versija 1.1 Kyrylycja => Latynka`,
-    fn: cyrToLat,
+    fn: klatinoid.cyrToLat,
     optional: false,
     testPayload: [
         {
