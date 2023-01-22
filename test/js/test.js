@@ -73,4 +73,9 @@ function runTests(loglevel = 'debug', experimental = false, future = false, name
 
 runTests();
 
-export { runTests }
+const tests = {
+    cyrToLatExperimentalSuite,
+    latToCyrExperimentalSuite
+}
+
+export { runTests, tests }
