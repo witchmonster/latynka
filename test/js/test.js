@@ -71,8 +71,6 @@ function runTests(loglevel = 'debug', experimental = false, future = false, name
     return runAll(true, allTests, name);
 }
 
-runTests();
-
 const tests = {
     cyrToLatExperimentalSuite,
     latToCyrExperimentalSuite

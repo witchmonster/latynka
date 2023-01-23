@@ -1,7 +1,7 @@
 {
     "name": "@juliakramr/latynka",
     "type": "module",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "description": "Ukrainian latynka algorythm (see rules in ukr. latynka project by Maksym Prudeus: ukr-latynka.org)",
     "main": "index.js",
     "directories": {
