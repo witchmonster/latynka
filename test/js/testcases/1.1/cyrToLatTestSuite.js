@@ -22,7 +22,7 @@ const cyrToLatTestSuite = {
     Особливі випадки зі змішаним регістром: «НЕ СПОВІЩАТИ» (але "Ще"), "ЮНЕСКО", СЕРЙОЗНО, КУРЙОЗ, РАЙОН, МІЛЬЙОН, ОБСЄ.
     Особливі випадки на 'йо'/'ьо' (м'який знак + "о"): п’ятьох, трьох, його, "йогурт", (Йоркшир), /йога/, [Йоганнесбург], _Йовович_.
     В іншомовних словах апостроф перед я, ю, є, ї ставиться не тільки після губних (б, п, в, м, ф) та р, а й після шиплячих та задньоротових (г, к, х, ж, ч, ш), якщо після них чується звук [й]: комп'ютер [-пю-], Дансм'юр [-мюр], бар'єр [-рєр], миш'як [-шя-], Руж'є [-жє], Х'юстон (@@Х'юстон@@) [хю-], Рейк'явік (@@Рейк'явік@@) [-кя-], Г'ята [гя-].
-    Болга́рія (заст. укр. @@Болгарщина@@[5], болг. @@България@@), офіційна назва: Респу́бліка Болга́рія (болг. @@Република България@@)
+    Болга́рія (заст. укр. @@Болгарщина@@[5], болг. @@България@@), офіційна назва: Респу́бліка Болга́рія (болг. @@Република България@@), (1948)
     Булга́ри (лат. @@Bulgares@@, грец. @@Βoύλγαρoί@@, староболг. @@Блъгарє@@, дав.-рус. @@българы@@, тат. @@болгарлар@@, чув. @@Пӑлха́рсем@@, болг. @@прабългари@@) — група тюркських (огурських) кочових племен.`,
 
                 expected: `    Slova inšomovnogo pohodžennja: ad'je, konferans'je, monpans'je, pas'jans, atel'je, barel'jef, batal'jon, mil'jard, buton'jerka, vin'jetka, kan'jon, Got'je, N'ju-Jork, N'juton, N'jasa, Ren'je toščo. Ale V'jent'jan.
@@ -32,7 +32,7 @@ const cyrToLatTestSuite = {
     Osoblyvi vypadky zi zmišanym registrom: "NE SPOVIŠČATY" (ale "Šče"), "JUNESKO", SER'JOZNO, KUR'JOZ, RAJON, MIL'JON, OBSJE.
     Osoblyvi vypadky na "jo"/"'o" (m'jakyj znak + "o"): p'jatjoh, trjoh, jogo, "jogurt", (Jorkšyr), /joga/, [Jogannesburg], _Jovovyč_.
     V inšomovnyh slovah apostrof pered ja, ju, je, ji stavyt'sja ne til'ky pislja gubnyh (b, p, v, m, f) ta r, a j pislja šypljačyh ta zadnjorotovyh (g, k, h, ž, č, š), jakščo pislja nyh čujet'sja zvuk [j]: komp'juter [-pju-], Dansm'jur [-mjur], bar'jer [-rjer], myš'jak [-šja-], Ruž'je [-žje], H'juston (Х'юстон) [hju-], Rejk'javik (Рейк'явік) [-kja-], G'jata [gja-].
-    Bolgárija (zast. ukr. Болгарщина[5], bolg. България), oficijna nazva: Respúblika Bolgárija (bolg. Република България)
+    Bolgárija (zast. ukr. Болгарщина[5], bolg. България), oficijna nazva: Respúblika Bolgárija (bolg. Република България), (1948)
     Bulgáry (lat. Bulgares, grec. Βoύλγαρoί, starobolg. Блъгарє, dav.-rus. българы, tat. болгарлар, čuv. Пӑлха́рсем, bolg. прабългари) — grupa tjurks'kyh (ogurs'kyh) kočovyh plemen.`
             }
         },

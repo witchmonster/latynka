@@ -29,7 +29,7 @@ function cyrToLat(text) {
     var i = 0;
     while (i < text.length) {
 
-      if (!dict.matchingSingleLetters[text[i]]) {
+      if (!dict.singleLetters[text[i]]) {
         //skip convertation for unmapped characters
         answer += text[i];
         i++;

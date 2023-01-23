@@ -53,7 +53,7 @@ function latToCyr(text) {
     var i = 0;
     while (i < text.length) {
 
-      if (!dict.matchingSingleLetters[text[i]]) {
+      if (!dict.singleLetters[text[i]]) {
         answer += text[i];
         i++;
       } else {

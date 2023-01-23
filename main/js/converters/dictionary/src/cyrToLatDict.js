@@ -126,14 +126,6 @@ const russianAlert = {
     'Ы': 'Y',
 };
 
-const matchingSingleLetters = {
-    ...lowerCase,
-    ...upperCase,
-    ...special,
-    ...apostrophes,
-    ...russianAlert
-}
-
 const singleLetters = {
     ...lowerCase,
     ...upperCase,
@@ -203,7 +195,6 @@ const cyrToLatDict = {
     joDigraph,
     translatesToDigraph,
     translatesToUpperCaseDigraph,
-    matchingSingleLetters,
     //detect russian letters
     russianAlert,
     //match all

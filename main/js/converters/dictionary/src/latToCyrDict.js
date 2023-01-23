@@ -234,15 +234,8 @@ var delimiters = {
     '\n': '\n'
 };
 
-const matchingSingleLetters = {
-    ...digits,
-    ...lowerCase,
-    ...upperCase,
-    ...special,
-    ...mjakyjZnak
-}
-
 const singleLetters = {
+    ...digits,
     ...lowerCase,
     ...upperCase,
     ...special,
@@ -266,7 +259,6 @@ const latToCyrDict = {
     delimiters,
     joDigraph,
     ioDigraph,
-    matchingSingleLetters,
     //match all
     all: {
         singleLetters,
