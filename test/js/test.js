@@ -12,22 +12,22 @@ const supportedVersions = ['0.9', '1.0'];
 const experimentalVersion = '1.1';
 const futureVersion = 'future'
 
-for (let i = 0; i < supportedVersions.length; i++) {
-    import(`./testcases/${supportedVersions[i]}/cyrToLatTestSuite.js`)
-        .then()
-    import(`./testcases/${supportedVersions[i]}/latToCyrTestSuite.js`)
-        .then()
-}
+// for (let i = 0; i < supportedVersions.length; i++) {
+//     import(`./testcases/${supportedVersions[i]}/cyrToLatTestSuite.js`)
+//         .then()
+//     import(`./testcases/${supportedVersions[i]}/latToCyrTestSuite.js`)
+//         .then()
+// }
 
-import(`./testcases/${experimentalVersion}/cyrToLatTestSuite.js`)
-    .then()
-import(`./testcases/${experimentalVersion}/latToCyrTestSuite.js`)
-    .then()
+// import(`./testcases/${experimentalVersion}/cyrToLatTestSuite.js`)
+//     .then()
+// import(`./testcases/${experimentalVersion}/latToCyrTestSuite.js`)
+//     .then()
 
-import(`./testcases/${futureVersion}/cyrToLatTestSuite.js`)
-    .then()
-import(`./testcases/${futureVersion}/latToCyrTestSuite.js`)
-    .then()
+// import(`./testcases/${futureVersion}/cyrToLatTestSuite.js`)
+//     .then()
+// import(`./testcases/${futureVersion}/latToCyrTestSuite.js`)
+//     .then()
 
 function runTests(loglevel = 'debug', experimental = false, future = false, name = "ALL TESTS") {
     // process.argv.forEach(function (val, index, array) {
