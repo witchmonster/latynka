@@ -94,6 +94,28 @@ Možete stvoryty uklad samostijno za dopomogoju proĝramy "Microsoft Keyboard La
 
 Možete stvoryty uklad samostijno za dopomogoju proĝramy "Ukelele"
 
+#### Linux (XKB)
+
+```
+//
+// cp /usr/share/X11/xkb/symbols/ukr-latynka-org
+// setxkbmap -layout ukr-latynka-org
+// ===
+//
+partial alphanumeric_keys
+xkb_symbols "ukr-latynka-org" {
+  include "us(basic)"
+  name[Group1]= "Ukrainian (ukr-latynka.org)";
+
+    key <AD01> {  [   gcircumflex,  Gcircumflex   ] }; 
+    key <AD02> {  [   scaron,       Scaron        ] };
+    key <AB02> {  [   zcaron,       Zcaron        ] };
+    key <AC10> {  [   ccaron,       Ccaron        ] };
+    key <AB08> {  [   comma,        semicolon     ] };
+    key <AB09> {  [   period,       colon         ] };
+};
+```
+
 # Dodatkovo
 
 Pocikavtesja horvats'koju abo slovens'koju abetkoju, počytajte neju. 
